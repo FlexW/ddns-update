@@ -9,3 +9,12 @@ https://github.com/M0ses/ddnss-update
 ```
 ddnss-update <KEY> <HOST>
 ```
+Or create files
+```
+mkdir ~/.ddnss-update
+touch ~/.ddnss-update/keyauth
+touch ~/.ddnss-update/hostname
+echo KEY > ~/.ddnss-update/keyauth
+echo HOST > ~/.ddnss-update/hostname
+```
+Then you can invoke `ddnss-update` without parameters.
